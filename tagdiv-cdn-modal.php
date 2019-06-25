@@ -5,13 +5,13 @@
  * Description: Enable the modal image when using a CDN - switch off global modal image in settings.
  * Author: Giacomo Lawrance
  * Author URI: https://giacomolaw.me
- * Version: 1.1
+ * Version: 1.0
  * Text Domain: tagdiv-cdn-modal
  *
  */
 
 // Td modal img on all images
-function tavdiv_modal(){
+function td_modal_plugin_init(){
     if(is_single()) {
         add_filter('the_content', 'add_responsive_class');
         function add_responsive_class($content){
@@ -33,4 +33,4 @@ function tavdiv_modal(){
 		}
     }
 }
-add_action('template_redirect', 'tavdiv_modal');
+add_action('template_redirect', 'td_modal_plugin_init');
