@@ -2,11 +2,11 @@
 /**
  * Plugin Name: Newspaper tagDiv CDN modal image enabler
  * Plugin URI: https://giacomolaw.me
- * Description: Enable the modal image when using a CDN - switch off global modal image in settings.
+ * Description: Enable the modal image when using a CDN in the Newspaper and Newsmag themes.
  * Author: Giacomo Lawrance
  * Author URI: https://giacomolaw.me
- * Version: 1.0
- * Text Domain: tagdiv-cdn-modal
+ * Version: 1.1.1
+ * Text Domain: cdn-modal-enabler
  *
  */
 

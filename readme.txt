@@ -1,1 +1,0 @@
-Enable the modal image when using a CDN in the tagDiv Newspaper theme - switch off global modal image in settings.
